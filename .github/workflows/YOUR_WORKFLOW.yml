@@ -4,7 +4,7 @@
 # documentation.
 
 name: Weekly Team Sync
-on: [pull]
+on: [push]
 
 jobs:
   create_issue:
