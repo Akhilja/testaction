@@ -4,9 +4,7 @@
 # documentation.
 
 name: Weekly Team Sync
-on:
-  schedule:
-    - cron: '20 15 * * 5'
+on: [pull]
 
 jobs:
   create_issue:
