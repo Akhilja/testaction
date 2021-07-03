@@ -12,3 +12,8 @@ jobs:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         stale-issue-message: 'Message to comment on stale issues. If none provided, will not mark issues stale'
         stale-pr-message: 'Message to comment on stale PRs. If none provided, will not mark PRs stale'
+        days-before-stale: 0.01
+        days-before-close: 0.02
+        stale-issue-label: Stale
+        stale-pr-label: Stale
+        operations-per-run: 30
